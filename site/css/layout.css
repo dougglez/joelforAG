@@ -1,0 +1,23 @@
+.containerContent {
+    z-index: 1;
+    position: relative;
+    padding: 0px 0px 50px 0px;
+    display: inline-block;
+    width: 940px;
+} 
+.sub_col1{width: 170px; position: relative; float: left;margin-right: 112px;}
+.sub_col2{width: 500px; position: relative; float: left;} 
+.sub_col3{width: 185px; position: relative; float: left;margin-right: 14px;} 
+.sub_col4{width: 100px; position: relative; float: left;margin-right: 22px;} 
+.sub_col5{width: 170px; position: relative; float: left;} 
+.col1{width: 100%; position: relative; float: left;}
+.col2{width: 191px; position: relative; float: left;}
+.col3{width: 275px; position: relative; float: left;}
+.col4{width: 390px; position: relative; float: left;}
+.col5{width: 660px; position: relative; float: left;}
+.col6{width: 310px; position: relative; float: left;}
+.col7{width: 680px; position: relative; float: left;}
+.col8{width: 280px; position: relative; float: left;}
+.col9{width: 360px; position: relative; float: left;}
+.col10{width: 510px; position: relative; float: left;}
+.col11{width: 710px; position: relative; float: left;}
