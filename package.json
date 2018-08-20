@@ -1,0 +1,23 @@
+{
+  "name": "joelforAG",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dougglez/joelforAG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dougglez/joelforAG/issues"
+  },
+  "homepage": "https://github.com/dougglez/joelforAG#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
