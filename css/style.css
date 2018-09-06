@@ -23,7 +23,7 @@ p{font-size: 16px; color: #7f7f7f; line-height: 18px;  padding-bottom: 16px;}
 /* ============================= header ============================ */
 header{position: relative; width: 100%; height: 170px; z-index: 3;  float: left; }
 .hide_text{text-indent: 101%; white-space: nowrap; overflow: hidden;}
-#logo{display:inline-block; background: url(../images/logo.png) 50% 0% no-repeat; width: 191px; height: 170px; }
+#logo{display:inline-block; background: url(../images/hnsn/joel_bw.jpg) 50% 0% no-repeat; width: 191px; height: 170px; }
 #logo{display:inline-block;  width: 191px; height: 170px; }
 #logo:hover{text-decoration:none; }
 .logoHolder{ display:inline-block; position: relative; height: 170px; width: 191px; float: left;}
@@ -69,9 +69,23 @@ header{position: relative; width: 100%; height: 170px; z-index: 3;  float: left;
 	height: 150px;
 }
 
+.contact_banner--wrapper {
+	/* background: url('../images/hnsn/joel_banner.jpg'); */
+	height: 350px;
+}
+
+.contact_banner--img {
+	/* height: 100%; */
+	width:  100%;
+}
+
+#contact_banner--donate {
+	margin: 12em 24em 5em;
+}
+
 @media (max-width: 750px) {
 	.navGall > ul > .active {
-		background: url("gall_pic4.jpg");
+		background: url("gall_pic4.jpg"); 
 	}
   }
 
@@ -151,16 +165,18 @@ header{position: relative; width: 100%; height: 170px; z-index: 3;  float: left;
 .navGall > ul > li{position: relative; width: 5px; height: 5px; float: left; margin: 0 1px;}
 .navGall > ul > li >a{width: 5px; height: 5px; position: relative; display: inline-block;}
 .contHolder{position: relative;height: 170px;}
-.sliderHolder{position: relative; width: 500px; top: 46px;display: inline-block;}
+.sliderHolder{position: relative; width: 500px; top: 22em; left: 10em; display: inline-block;}
 #_slider{width: 100%; height: 290px; display: block;overflow: hidden;position: relative;z-index: 1;}
 #_slider >.descr{width: 100%;  display: block;position: absolute;height: 290px;}
-#sliderNavs{position: absolute; width: 192px; top: 312px; z-index: 2;}
-#buttonPrev{margin: 0; float: left;}
-#buttonNext{margin: 0; float: right;}
-.slider_text1{font-family: 'Times New Roman', serif; font-size: 100px; color: #eb4444; font-weight: bold;line-height: 100px;width: 100%;text-transform: uppercase;position: relative;}
-.slider_text2{font-family: 'Times New Roman', serif; font-size: 77px; color: #3d85b8; font-weight: bold;width: 100%;text-transform: uppercase;line-height: 77px;position: relative;margin-top: -11px;}
-.slider_text3{font-family: 'Times New Roman', serif; font-size: 77px; color: #fff; font-weight: bold;text-transform: uppercase;line-height: 77px;position: relative;margin-top: -10px;}
-.slider_text4{font-family: 'Times New Roman', serif; font-size: 20px; color: #fff;text-transform: uppercase;position: relative;line-height: 22px;margin-top: 8px;}
+/* #sliderNavs{position: absolute; width: 192px; top: 312px; z-index: 2;} */
+#buttonPrev{margin: 0; float: left; position: relative; top: 10em; left: 15em;}
+#buttonNext{margin: 0; float: right; position: relative; top: 10em; left: 15em;}
+.slider_text--one{opacity: .75; font-family: 'Times New Roman', serif; font-size: 50px; color: #fff; line-height: 50px; font-weight: bold;text-transform: uppercase;position: relative;}
+.slider_text--two{opacity: .75; font-family: 'Times New Roman', serif; font-size: 60px; color: #eb4444; line-height: 50px; font-weight: bold;width: 100%;text-transform: uppercase;position: relative; margin-bottom: 15px;}
+/* .slider_text1{font-family: 'Times New Roman', serif; font-size: 60px; color: #eb4444; line-height: 50px; font-weight: bold;width: 100%;text-transform: uppercase;position: relative;} */
+/* .slider_text2{font-family: 'Times New Roman', serif; font-size: 50px; color: #3d85b8; line-height: 50px; font-weight: bold;width: 100%;text-transform: uppercase;position: relative;} */
+/* .slider_text3{font-family: 'Times New Roman', serif; font-size: 50px; color: #fff; line-height: 50px; font-weight: bold;text-transform: uppercase;position: relative;} */
+/* .slider_text4{font-family: 'Times New Roman', serif; font-size: 20px; color: #fff;text-transform: uppercase;position: relative;line-height: 22px;margin-top: 8px;} */
 .left_part{background: url(../images/bg1.png); width: 800px; height: 53px; position: absolute; display: inline-block;top: 0;left: -800px;}
 .right_part{background: url(../images/bg1.png); width: 800px; height: 53px; position: absolute; display: inline-block;top: 0;right: -800px;}
 .textStyle1{font-family: 'Times New Roman', serif; font-size: 18px; color: #515151;text-transform: none;line-height: 20px;}
@@ -194,10 +210,24 @@ header{position: relative; width: 100%; height: 170px; z-index: 3;  float: left;
 .followHolder > ul > li{display: inline-block; float: left;margin: 0 3px;}
 .followHolder > ul > li > a{display: inline-block; position: relative;}
 ._conteiner1{position: relative; display: inline-block;padding: 28px 10px 20px 22px;width: 159px;}
-/*===================================Map=====================================*/
-.google_map{ width:510px; height:510px; background: #fff; display: inline-block;}
-.google_map > span{position: absolute; top: 50%; left: 50%;}
+
 /* ============================= forms ============================= */
+
+.feedback_text {
+	color: #fff;
+	font-size: 22px;
+	font-style: italic;
+	margin-top: 2em;
+	width: 15em;
+	line-height: 24px;
+}
+
+.feedback_text--one{opacity: .75; font-family: 'Times New Roman', serif; font-size: 30px; color: #fff; line-height: 50px; font-weight: bold;text-transform: uppercase;position: relative;}
+.feedback_text--two{opacity: .75; font-family: 'Times New Roman', serif; font-size: 30px; color: #eb4444; line-height: 50px; font-weight: bold;width: 100%;text-transform: uppercase;position: relative; margin-bottom: 15px;}
+
+.contact_form--title {
+	text-align: center;
+}
 #ContactForm {
 	padding:0; 
 }
@@ -244,7 +274,7 @@ header{position: relative; width: 100%; height: 170px; z-index: 3;  float: left;
 }
 #ContactForm a:hover {text-decoration:none;}
 #ContactForm .input {
-	width: 205px; 
+	width: 365px; 
 	padding: 7px 12px; 
 	color: #7F7F7F; 
 	outline:none; 
